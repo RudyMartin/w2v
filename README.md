@@ -1,9 +1,9 @@
 # Building a Word2Vec Model with Twitter Data
 
 ## Blog: https://ibm.biz/word2vec
+# Spark-based machine learning for capturing word meanings
 
-![image of pyspark shell]
-(https://github.com/castanan/w2v/blob/master/images/w2v-ibm-design.png)
+In this repo, you will find out how to build Word2Vec models with Twitter data. For an end to end tutorial on how to build models on IBM's [Watson Studio](http://datascience.ibm.com/), please chech [this repo](https://github.com/IBMDataScience/word2vec).
 
 ## Pre-reqs: install Python, numpy and Apache Spark 
 
@@ -45,9 +45,7 @@ cd /YOUR-PATH-TO-REPO/w2v
 
 ## Get the Data
 
-Get some tweets from December 23, 2014 from here: 
-
-https://www.dropbox.com/sh/82rrk8di2nouf0x/AAAIMc6J9rWpu08UBLhLbHXEa?dl=0 
+Download (without uncompressing) some tweets from [here](https://ibm.box.com/s/mn5cenc1m6vuqm8qdwf2ddzuc4jyvpd4). The `tweets.gz` file contains a 10% sample (using Twitter decahose API) of a 15 minute batch of the public tweets from December 23rd. The size of this compressed file is 116MB (compression ratio is about 10 to 1).
 
 Note: there is no need to uncompress the file, just download the tweets.gz file and save it on the repo /YOUR-PATH-TO-REPO/w2v/data/.  
 
