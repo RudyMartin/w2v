@@ -3,7 +3,7 @@
 ## Blog: https://ibm.biz/word2vec
 # Spark-based machine learning for capturing word meanings
 
-In this repo, you will find out how to build Word2Vec models with Twitter data. For an end to end tutorial on how to build models on IBM's [Watson Studio](http://datascience.ibm.com/), please chech [this repo](https://github.com/IBMDataScience/word2vec).
+In this repo, you will find out how to build Word2Vec models with Twitter data. For an end to end tutorial on how to build models on IBM's [Watson Studio](https://datascience.ibm.com/), please chech [this repo](https://github.com/IBMDataScience/word2vec).
 
 ## Pre-reqs: install Python, numpy and Apache Spark 
 
